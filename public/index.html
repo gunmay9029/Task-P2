@@ -1,143 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DEV@Deakin | Gunmay Sehgal</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Gunmay Sehgal | Personal Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
 
-    <header class="topbar">
-        <div class="brand">DEV@Deakin</div>
+    <!-- =========================
+         NAVIGATION
+         P1 SECTION
+    ========================== -->
+    <nav>
+        <div class="nav-brand">AS<span>.</span></div>
 
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#projects">Projects</a>
-            <a href="#about">About</a>
-            <a href="#subscribe">Subscribe</a>
-        </nav>
-    </header>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
 
-    <main>
-
-        <section id="home" class="hero">
-            <div class="hero-content">
-                <p class="eyebrow">STUDENT • DEVELOPER • LEARNER</p>
-                <h1>Building ideas through technology.</h1>
-                <p>
-                    Welcome to Gunmay Sehgal's DEV@Deakin platform,
-                    where I share projects, ideas and my learning journey.
-                </p>
-
-                <a href="#subscribe" class="hero-button">
-                    Join the community
-                </a>
-            </div>
-
-            <div class="hero-card">
-                <span>01</span>
-                <h2>Explore.</h2>
-                <p>Discover projects and technology-focused work.</p>
-            </div>
-        </section>
+            <!-- P2 ADDITION -->
+            <li><a href="#signup">Daily Insider</a></li>
+        </ul>
+    </nav>
 
 
-        <section id="projects" class="projects-section">
-            <div class="section-heading">
-                <p class="eyebrow">MY WORK</p>
-                <h2>Featured Projects</h2>
-            </div>
+    <!-- =========================
+         HERO
+         P1 SECTION
+    ========================== -->
+    <header class="hero">
 
-            <div class="project-grid">
+        <div class="hero-content">
 
-                <article class="project-card">
-                    <div class="project-number">01</div>
-                    <h3>Data Analysis</h3>
-                    <p>
-                        Exploring datasets and finding useful patterns
-                        through programming and data analysis.
-                    </p>
-                </article>
+            <p class="eyebrow">PORTFOLIO • 2026</p>
 
-                <article class="project-card">
-                    <div class="project-number">02</div>
-                    <h3>Database Project</h3>
-                    <p>
-                        Designing databases and working with SQL,
-                        relationships and structured information.
-                    </p>
-                </article>
+            <h1>
+                Gunmay<br>
+                <span>Sehgal</span>
+            </h1>
 
-                <article class="project-card">
-                    <div class="project-number">03</div>
-                    <h3>IoT System</h3>
-                    <p>
-                        Exploring connected devices and communication
-                        within smart technology environments.
-                    </p>
-                </article>
-
-            </div>
-        </section>
-
-
-        <section id="about" class="about-section">
-
-            <div>
-                <p class="eyebrow">ABOUT</p>
-                <h2>Learning by building.</h2>
-            </div>
-
-            <p>
-                I am Gunmay Sehgal, a student interested in technology,
-                programming and developing practical digital solutions.
-                My university projects have helped me build experience
-                across programming, databases and web technologies.
+            <p class="hero-subtitle">
+                AI/ML Student • Developer • Problem Solver
             </p>
 
-        </section>
+            <a class="hero-button" href="#about">
+                Explore My Work ↓
+            </a>
+
+        </div>
+
+        <div class="hero-orb"></div>
+
+    </header>
 
 
-        <section id="subscribe" class="subscribe-section">
+    <!-- =========================
+         ABOUT
+         P1 SECTION
+    ========================== -->
+    <section id="about" class="about-section">
 
-            <div class="subscribe-text">
-                <p class="eyebrow">STAY CONNECTED</p>
-                <h2>Get the DEV@Deakin insider email.</h2>
-                <p>
-                    Subscribe to receive updates and a welcome email.
-                </p>
+        <div class="section-label">
+            01 — ABOUT
+        </div>
+
+        <div class="about-container">
+
+            <div class="profile-wrap">
+                <img
+                    src="personal.png"
+                    alt="Gunmay Sehgal"
+                    class="profile-pic"
+                />
             </div>
 
-            <form id="subscribeForm" class="subscribe-form">
+            <div class="about-text">
 
-                <label for="email">Email address</label>
+                <p class="small-title">
+                    A LITTLE ABOUT ME
+                </p>
 
-                <div class="input-row">
+                <h2>
+                    Building ideas into
+                    <em>digital experiences.</em>
+                </h2>
+
+                <p>
+                    Hi, I'm Gunmay Sehgal. I'm currently pursuing a
+                    Bachelor of Engineering in AI/ML at Chitkara
+                    University. I enjoy exploring technology,
+                    developing practical solutions, and turning
+                    creative ideas into useful projects.
+                </p>
+
+                <div class="stats">
+
+                    <div>
+                        <strong>AI/ML</strong>
+                        <span>Focus Area</span>
+                    </div>
+
+                    <div>
+                        <strong>Web</strong>
+                        <span>Development</span>
+                    </div>
+
+                    <div>
+                        <strong>Build</strong>
+                        <span>Learn • Create</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PROJECTS
+         P1 SECTION
+    ========================== -->
+    <section class="allprojects" id="work">
+
+        <div class="section-label">
+            02 — SELECTED WORK
+        </div>
+
+        <h2 class="work-title">
+            Things I've <em>built.</em>
+        </h2>
+
+
+        <!-- PROJECT 1 -->
+        <div class="projects">
+
+            <div class="project-image">
+                <img
+                    src="project1.png"
+                    alt="Web development project"
+                />
+            </div>
+
+            <div class="project-info">
+
+                <span>PROJECT 01</span>
+
+                <h3>
+                    Hackathon Web Platform
+                </h3>
+
+                <p>
+                    A complete web platform created for a university
+                    hackathon. I worked across the front-end and
+                    back-end to build a functional and engaging
+                    experience for participants.
+                </p>
+
+                <div class="tag-row">
+                    <b>HTML</b>
+                    <b>CSS</b>
+                    <b>JavaScript</b>
+                    <b>Backend</b>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PROJECT 2 -->
+        <div class="projects reverse">
+
+            <div class="project-image">
+                <img
+                    src="project2.png"
+                    alt="Hackathon hardware project"
+                />
+            </div>
+
+            <div class="project-info">
+
+                <span>PROJECT 02</span>
+
+                <h3>
+                    Hackathon Innovation Project
+                </h3>
+
+                <p>
+                    A hands-on hackathon project combining hardware
+                    and software. I led the team, coordinated
+                    development, and helped turn the concept into
+                    a working prototype.
+                </p>
+
+                <div class="tag-row">
+                    <b>Leadership</b>
+                    <b>Hardware</b>
+                    <b>Innovation</b>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- GALLERY HEADING -->
+        <div class="gallery-heading">
+
+            <div class="section-label">
+                03 — MOMENTS
+            </div>
+
+            <h2>
+                Behind the <em>build.</em>
+            </h2>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         GALLERY
+         P1 SECTION
+    ========================== -->
+    <div class="album">
+
+        <img
+            src="photo1.png"
+            alt="Gunmay Sehgal photo 1"
+        />
+
+        <img
+            src="photo2.png"
+            alt="Gunmay Sehgal photo 2"
+        />
+
+        <img
+            src="photo3.png"
+            alt="Gunmay Sehgal photo 3"
+        />
+
+        <img
+            src="photo4.png"
+            alt="Gunmay Sehgal photo 4"
+        />
+
+    </div>
+
+
+    <!-- =========================
+         CONTACT
+         P1 SECTION
+    ========================== -->
+    <section id="contact">
+
+        <footer>
+
+            <div class="footer-container">
+
+                <p class="section-label">
+                    04 — GET IN TOUCH
+                </p>
+
+                <h2>
+                    Let's build something<br>
+                    <em>interesting.</em>
+                </h2>
+
+                <p class="contact-note">
+                    Gunmay Sehgal • AI/ML Student & Developer
+                </p>
+
+                <div class="socials">
+
+                    <a href="#" target="_blank">
+                        GitHub
+                    </a>
+
+                    <a href="#" target="_blank">
+                        LinkedIn
+                    </a>
+
+                    <a href="mailto:gunmay.sehgal@example.com">
+                        Email
+                    </a>
+
+                </div>
+
+                <p class="copyright">
+                    © 2026 Gunmay Sehgal. All rights reserved.
+                </p>
+
+            </div>
+
+        </footer>
+
+    </section>
+
+
+    <!-- =========================
+         P2 — DAILY INSIDER
+    ========================== -->
+    <section id="signup" class="signup-section">
+
+        <div class="section-label">
+            05 — DAILY INSIDER
+        </div>
+
+        <div class="signup-content">
+
+            <div class="signup-text">
+
+                <p class="small-title">
+                    STAY CONNECTED
+                </p>
+
+                <h2>
+                    Get the latest
+                    <em>updates.</em>
+                </h2>
+
+                <p>
+                    Subscribe to the Daily Insider and receive
+                    updates and news directly in your inbox.
+                </p>
+
+            </div>
+
+
+            <form id="signupForm" novalidate>
+
+                <label for="email">
+                    Email Address
+                </label>
+
+                <div class="signup-form-row">
+
                     <input
                         type="email"
                         id="email"
-                        name="email"
-                        placeholder="Enter your email"
-                    >
+                        placeholder="Enter your email address"
+                        autocomplete="email"
+                    />
 
                     <button type="submit">
                         Subscribe
                     </button>
+
                 </div>
 
-                <p id="statusMessage" class="status-message"></p>
+                <p id="message"></p>
 
             </form>
 
-        </section>
+        </div>
 
-    </main>
+    </section>
 
-    <footer>
-        <p>© 2026 Gunmay Sehgal | DEV@Deakin</p>
-    </footer>
 
     <script src="script.js"></script>
 
